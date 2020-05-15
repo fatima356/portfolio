@@ -1,0 +1,74 @@
+                                    * {
+                                        margin: 0;
+                                    }
+                                    
+                                    .top {
+                                        background-image: url("web-text-1591060.jpg");
+                                        background-color: #363c42;
+                                        /* Full height */
+                                        height: 400px;
+                                        /* Center and scale the image nicely */
+                                        background-position: center;
+                                        background-repeat: no-repeat;
+                                        background-size: cover;
+                                    }
+                                    
+                                    body {
+                                        font-family: "Open Sans", sans-serif;
+                                    }
+                                    
+                                    a {
+                                        text-decoration: none;
+                                        color: white;
+                                    }
+                                    
+                                    h1,
+                                    h2,
+                                    h3,
+                                    h4,
+                                    h5,
+                                    h6 {
+                                        font-family: "Raleway", sans-serif;
+                                    }
+                                    
+                                    .card-title i:hover {
+                                        transform: scale(1.25) rotate(100deg);
+                                        color: #18d4ca;
+                                    }
+                                    
+                                    .card:hover {
+                                        transform: scale(1.05);
+                                        box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
+                                        border: 2px solid #363c42;
+                                        border-radius: 15px;
+                                    }
+                                    
+                                    .card-text {
+                                        height: 80px;
+                                        padding: 0px 20px 20px 20px;
+                                    }
+                                    
+                                    .back-to-top {
+                                        position: fixed;
+                                        bottom: 25px;
+                                        right: 25px;
+                                        display: none;
+                                    }
+                                    
+                                    @media screen and (max-width: 600px) {
+                                        img.gallery {
+                                            max-width: 300px;
+                                            padding: 10px;
+                                        }
+                                    }
+                                    
+                                    @media screen and (max-width: 600px) {
+                                        div.card {
+                                            margin: 20px;
+                                            padding: 5px;
+                                        }
+                                    }
+                                    
+                                    .navbar-toggler-icon {
+                                        color: white;
+                                    }
